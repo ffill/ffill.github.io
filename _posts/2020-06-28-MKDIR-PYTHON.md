@@ -1,6 +1,6 @@
 #MKDIR
 
-def mkdir(path):
+def mkdir(path): 
     import os
     path = path.strip()
     path = path.rstrip("\\")
@@ -12,4 +12,3 @@ def mkdir(path):
     else:
         print(path+'already exist')
         return False
-    
